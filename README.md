@@ -1332,12 +1332,20 @@ sudo systemctl enable --now docker.service
 
 ----
 
-<https://github.com/h3110w0r1d-y/BurpLoaderKeygen>
+> 下载地址
+```
+https://portswigger.net/burp/releases#professional
+```
 
-> 安装 JAVA 运行环境
+> 注册机地址
 ```
-paru -S openjdk17-src
+https://github.com/h3110w0r1d-y/BurpLoaderKeygen
 ```
+
+<!-- > 安装 JAVA 运行环境 -->
+<!-- ``` -->
+<!-- paru -S openjdk17-src -->
+<!-- ``` -->
 
 > 其他常用软件安装
 ```
