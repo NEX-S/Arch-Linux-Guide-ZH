@@ -1502,6 +1502,28 @@ cat dconf-settings.ini | dconf load /   [ 载入 GNOME 配置文件 ]
 ----
 
 <details>
+<summary>网络配置</summary><br />
+
+> hosts
+```
+[ sudo vim /etc/hosts ]
+
+127.0.0.1   localhost
+::1         localhost
+...
+```
+
+> DNS
+```
+[ sudo vim /etc/resolv.conf ]
+
+nameserver 114.114.114.114
+nameserver 8.8.8.8
+```
+
+</details>
+
+<details>
 <summary>SSH 配置</summary><br />
 
 TODO
@@ -1563,7 +1585,6 @@ sudo pacman -S linux-zen-headers [ 内核头文件 ]
 </details><br />
 
 ----
-
 
 <div align="center">
     <p><i>作者：NEX</i></p>
