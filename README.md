@@ -225,11 +225,11 @@ root@archiso ~ # swapon /dev/nvme0n1p2
 <summary>挂载知识点</summary><br />
 
  - 很多同学都知道，在 Linux 系统下 **一切皆文件**
- 
+
  - 不管是 鼠标 键盘 还是显示器 硬盘，对 Linux 来说都是文件，只不过这几个文件比较特殊而已
- 
+
  - 我们刚刚分出的三个区域对 Linux 来说就是三个块设备文件，如果我们想要操作这三个文件，必须先把这三个文件映射到某一个我们能操作的目录下
- 
+
  - 这样的话 我们在那个目录里所做的一切修改 都会反映到映射的源头 也就是上面三个块设备文件
 
 </details>
@@ -1376,6 +1376,7 @@ paru -S obsidian                 [ 笔记工具 ]
 paru -S ristretto                [ 图片查看器 ]
 paru -S nomacs-git               [ 图片编辑工具 ]
 
+paru -S via-bin                  [ VIA 改键工具 ]
 paru -S spotify                  [ Spotify ]
 paru -S netease-cloud-music      [ 网抑云音乐 ]
 paru -S yesplaymusic             [ 第三方网易云 ]
