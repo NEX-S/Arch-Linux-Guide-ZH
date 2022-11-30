@@ -1351,7 +1351,7 @@ https://github.com/h3110w0r1d-y/BurpLoaderKeygen
 ```
 [ 常用软件 ]
 paru -S translate-shell-git [ 命令行翻译 ]
-paru -S man-db				[ Linux Manual ]
+paru -S man-db              [ Linux Manual ]
 paru -S python-pip          [ Python 包管理工具 ]
 
 [ 系统功能增强 ]
@@ -1496,6 +1496,13 @@ cat dconf-settings.ini | dconf load /   [ 载入 GNOME 配置文件 ]
 
 笔者的配置文件
 + TODO
+
+> 文件管理器添加 [ `Open in alacritty` ]
+```bash
+paru -S nautilus-open-any-terminal-git
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal new-tab true
+```
 
 
 # 其他配置
