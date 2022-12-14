@@ -1421,8 +1421,8 @@ paru -S gnome-shell-extensions-git                   [ GNOME 扩展管理工具 
 paru -S gnome-shell-extension-dash-to-dock-git       [ GNOME 应用栏 ]
 paru -S gnome-shell-extension-unite-git              [ GNOME UNITE 扩展 ]
 paru -S gnome-shell-extension-proxy-switcher-git     [ GNOME 系统代理切换工具 ]
-paru -S gnome-shell-extension-simple-system-monitor  [ GNOME 性能监控 ]
 paru -S gnome-shell-extension-system-monitor-git     [ GNOME 性能监控 ]
+paru -S gnome-shell-extension-blur-my-shell-git      [ GNOME 模糊背景 ]
 
 paru -S gnome-terminal-transparency                  [ GNOME 透明终端 ]
 ```
@@ -1599,5 +1599,4 @@ sudo pacman -S linux-zen-headers [ 内核头文件 ]
     <p><i>邮箱：veperx@iclud.com<i></p>
     <p><i><strong>此文章严禁转载到 CSDN 及百家号平台，违者以侵权处理，转载其他社区注明原文链接即可</strong></i><p>
 </div>
-
 
