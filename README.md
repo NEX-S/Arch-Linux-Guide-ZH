@@ -1543,12 +1543,9 @@ TODO
 <summary>字体推荐</summary><br />
 
 paru -S nerd-fonts-jetbrains-mono
-paru -S nerd-fonts-droid-sans-mono
-paru -S nerd-fonts-ubuntu-mono
 paru -S nerd-fonts-bigblue-terminal
-paru -S consolas-font
+paru -S ttf-fixedsys-excelsior-linux
 paru -S ttf-monaco
-paru -S ttf-dejavu
 
 </details><br />
 
